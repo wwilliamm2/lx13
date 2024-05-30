@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   get  '/about',   to: 'home#about'
   get  '/blog',    to: 'home#blog'
   get  '/contact', to: 'home#contact'
-  get  '/examp',   to: 'home#examp'
+  get  '/ldoc',   to: 'home#ldoc'
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
   # Can be used by load balancers and uptime monitors to verify that the app is live.
